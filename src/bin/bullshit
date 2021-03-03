@@ -1,5 +1,5 @@
 #!/bin/sh
-export file="$0"'_lib'
+export file="`dirname "$0"`"'/../lib/bullshit_lib'
 awk '
 function min(a, b){
 	if(a > b)
