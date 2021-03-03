@@ -1,5 +1,5 @@
 #!/bin/sh
-export file=/usr/lib/bullshit
+export file="$0"'_lib'
 awk '
 function min(a, b){
 	if(a > b)
